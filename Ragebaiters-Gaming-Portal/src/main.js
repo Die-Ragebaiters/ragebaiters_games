@@ -1,1 +1,0 @@
-console.log('Ragebaiters Gaming Portal geladen!');
