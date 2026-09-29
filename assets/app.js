@@ -1,6 +1,6 @@
-const SUPABASE_URL = 'YOUR_SUPABASE_PROJECT_URL';
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
-const configured = !SUPABASE_URL.startsWith('YOUR_') && !SUPABASE_ANON_KEY.startsWith('YOUR_');
+const SUPABASE_URL = 'https://xkmrbviuvenitaxvmqut.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhrbXJidml1dmVuaXRheHZtcXV0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA2OTQ4MDUsImV4cCI6MjEwNjI3MDgwNX0.df3Tm4aRevk4Y_U83UFwWP0zBww8Lo4k5vQP5R6rxWQ';
+const configured = !SUPABASE_URL.startsWith('https://xkmrbviuvenitaxvmqut.supabase.co') && !SUPABASE_ANON_KEY.startsWith('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhrbXJidml1dmVuaXRheHZtcXV0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA2OTQ4MDUsImV4cCI6MjEwNjI3MDgwNX0.df3Tm4aRevk4Y_U83UFwWP0zBww8Lo4k5vQP5R6rxWQ');
 let session = null;
 
 const $ = (selector, parent = document) => parent.querySelector(selector);
